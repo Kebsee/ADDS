@@ -2,14 +2,14 @@
 #define PLAYER_H
 
 #include <string>
-
+using namespace std;
 class Player {
 public:
     virtual char makeMove() = 0; // pure virtual function, must be implemented in derived classes
-    std::string getName() const; // const member function, returns the name of the player
+    string getName() const; // const member function, returns the name of the player
 
 protected:
-    std::string name;
+    string name;
 };
 
 #endif
