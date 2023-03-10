@@ -1,1 +1,1 @@
-//write a recursive function to computer f(n) = 1x2+2x3+3x4 +
+//write a recursive function to computer f(n) = 1x2+2x3+3x4 +new
